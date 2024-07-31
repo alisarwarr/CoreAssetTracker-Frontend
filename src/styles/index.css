@@ -1,0 +1,61 @@
+/* TAILWIND-CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/************************************/
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+/************************************/
+
+
+
+/************************************/
+body {
+    padding: 0;
+    margin: 0;
+}
+/************************************/
+
+
+
+/************************************/
+.content {
+    width: 80%;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.content-heading {
+    font-family: "Lexend", sans-serif;
+    font-weight: bolder;
+}
+.content-text {
+    font-family: "Lexend", sans-serif;
+    font-size: 0.9rem;
+}
+.content-text span {
+    font-weight: bolder;
+}
+.content-text a {
+    color: rgb(51, 51, 238);
+}
+.content-ul {
+    font-size: 0.9rem;
+    font-family: "Lexend", sans-serif;
+}
+.content-ul li {
+    margin-top: 6.5px;
+}
+.content-ul li span {
+    font-weight: bolder;
+}
+.content-ul li a {
+    color: rgb(51, 51, 238);
+}
+/************************************/

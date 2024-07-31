@@ -1,0 +1,82 @@
+Arguments: 
+  /usr/local/bin/node /usr/bin/yarn
+
+PATH: 
+  /home/ali/.amplify/bin:/home/ali/.amplify/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ali/Android/Sdk/emulator:/home/ali/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/ali/.cache/yarn/v6/npm-@types-stack-utils-2.0.3-6209321eb2c1712a7e7466422b8cb1fc0d9dd5d8-integrity/node_modules/@types/stack-utils/.yarn-metadata.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "coreassettracker-frontend",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.17.0",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "@types/jest": "^27.5.2",
+      "@types/node": "^16.18.104",
+      "@types/react": "^18.3.3",
+      "@types/react-dom": "^18.3.0",
+      "aws-amplify": "^6.4.3",
+      "formik": "^2.4.6",
+      "react": "^18.3.1",
+      "react-dom": "^18.3.1",
+      "react-loader-spinner": "^6.1.6",
+      "react-router-dom": "^6.25.1",
+      "react-scripts": "5.0.1",
+      "sweetalert2": "^11.12.3",
+      "typescript": "^4.9.5",
+      "web-vitals": "^2.1.4",
+      "yup": "^1.4.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "tailwindcss": "^3.4.7"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
